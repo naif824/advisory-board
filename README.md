@@ -16,6 +16,7 @@ using your existing subscription — no per-token API cost.
 | `/muse <q>` | Muse Spark 1.1 (Meta) | `codex exec --model muse-spark-1.1 -c model_provider=meta` |
 | `/deepseek <q>` | DeepSeek v4 Flash | `kilo run -m deepseek/deepseek-v4-flash` |
 | `/kiro <q>` | Kiro (AWS) | `kiro-cli chat --no-interactive` |
+| `/ab <q>` | **All of the above at once** | fans out to every member in parallel, then synthesizes |
 
 ## How it works
 
